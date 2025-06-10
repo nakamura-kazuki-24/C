@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    char cs[3][10000];
-    int i;
-    for(i=0;i<3;i++){
-        printf("cs[%d]：",i);
-        scanf_s("%s",&cs[i]);
-    }
-    for(i=0;i<3;i++){
-        printf("cs[%d]：\"%s\"\n",i,cs[i]);
-    }
-    return 0;
+    int horu[] = {4,4,3,4,5,4,5,3,4,4,3,4,5,4,3,4,5,4};
+    char nyuuryoku[18];
+    int i, j, k;
+    printf("打った数を入力");
+    scanf("%s",nyuuryoku);
+    
+
+
 }
