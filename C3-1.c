@@ -10,5 +10,5 @@
     printf("\n変数cは8進数の%d変数dは8進数の%d",c,d);
     e = 0x45;
     f = 0xda;
-    printf("\n変数eは16進数の%d変数fは16進数の%d",e,f);
+    printf("\n変数eは16進数の%d変数fは16進数の%d",e,f);  //sakana-
 }
